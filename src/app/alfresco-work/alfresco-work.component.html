@@ -13,12 +13,13 @@
           Add
         </button>
         <button type="button" class="btn btn-secondary" >Logout</button>
-      
-  
       </form>
     </div>
   </nav>
   <br/><br/> 
   <div class="container">
-<h1>List of root folders    </h1>
-  </div>
+<h1>Site : testpoc </h1>
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let doc of documents"(click)="downloadDocument(doc)">{{doc.name}}<button type="button" class="btn btn-primary btn-sm" style="float: right;">Download</button></li>
+</ul>
+</div>

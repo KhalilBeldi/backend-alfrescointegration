@@ -14,8 +14,6 @@ import { EditProductComponent } from './edit-product/edit-product.component';
 import { AlfrescoWorkComponent } from './alfresco-work/alfresco-work.component';
 
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
